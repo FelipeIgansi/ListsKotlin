@@ -2,11 +2,44 @@ fun main() {
 
     // Any e Count
     val data = geraDados()
-
-    println("Tem dados?  ${if(data.any()) "Sim" else "Não"}")
-    println("Tenho ${data.count()} elementos")
+//
+//    println("Tem dados?  ${if(data.any()) "Sim" else "Não"}")
+//    println("Tenho ${data.count()} elementos")
 
     // ----------------------------------------------------
+
+    // First e Last
+/*
+    println("Primeira Receita:  ${data.first().nome}")
+    println("Ultima Receita:  ${data.last().nome}")
+
+    println( listOf<Int>().firstOrNull())// Se a lista for vazia tem que usar o first or null
+    println( listOf<Int>().lastOrNull())// Se a lista for vazia tem que usar o last or null*/
+
+    //----------------------------------------------------
+
+/*
+    // sum e sumOf
+
+    println(listOf(1,2,3,4,5).sum())
+
+    //Uso o sumOf para objetos basicamete
+    // it é como se fosse o this é uma referencia ao objeto
+
+    println(data.sumOf { it.calorias })
+
+
+    println(data.filter { it.calorias > 500 })
+    println("----------------------------------------------")
+    println(data.any { it.calorias > 500 })
+    println("----------------------------------------------")
+    println(data.count { it.calorias > 500 })
+*/
+
+    //
+
+
+
 
 }
 
