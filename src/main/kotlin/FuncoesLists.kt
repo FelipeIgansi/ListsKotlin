@@ -36,7 +36,26 @@ fun main() {
     println(data.count { it.calorias > 500 })
 */
 
-    //
+    // take e takelast
+//    println(data.take(2))// Quero as duas primeiras receitas
+//    println(data.takeLast(2))// Quero as duas Ultimas receitas
+
+/*    // foreach
+    data.forEach{ println(it.nome)}
+    println("-----------------------------------------")
+    data.filter { it.calorias >500 }.forEach{ println(it.nome) }
+        data.filter { it.calorias >500 }.forEach{ println("Nome:  ${it.nome}, Caloria:  ${it.calorias}, Ingredientes:  ${it.ingredientes}") }
+
+
+    */
+
+/*    // Max e Min
+    println(data.maxOf { it.calorias })
+    println(data.minOf { it.calorias })
+
+    // Para mostrar tbm o objeto deve usar o By
+
+    println(data.minByOrNull { it.calorias })*/
 
 
 
